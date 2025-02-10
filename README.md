@@ -14,7 +14,7 @@ A Gradio-based speech-to-prompt pipeline integrating transcription (via Whisper)
 1. **Clone the Repository**
    - Clone the repository from GitHub:
      ```bash
-     git clone <your-github-repo-url>
+     git clone https://github.com/MushroomFleet/Speak-2-me
      cd Speak2me_v1
      ```
 
@@ -28,7 +28,7 @@ A Gradio-based speech-to-prompt pipeline integrating transcription (via Whisper)
 3. **Model Files**
    - **Kokoro TTS Models:**  
      Place the required KokoroTTS model files in the root directory of the project.  
-     - **Model link:** [# Placeholder URL for KokoroTTS models]
+     - **Model link:** [Kokoro-v1.0.onnx](https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx), [voices-v1.0.bin](https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin).
 
 4. **Whisper Model**
    - The *Whisper Tiny* model is automatically downloaded on first run.  
