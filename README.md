@@ -1,5 +1,4 @@
 # Speak2me_v1
-![demo-ui](https://raw.githubusercontent.com/MushroomFleet/Speak-2-me/refs/heads/main/images/demo-ui.png)
 
 A Gradio-based speech-to-prompt pipeline integrating transcription (via Whisper), natural language generation (via Ollama), and text-to-speech (via Kokoro TTS). This application automatically downloads the Whisper Tiny model by default, with support for the Medium model and CPU fallback.
 
@@ -56,7 +55,7 @@ A Gradio-based speech-to-prompt pipeline integrating transcription (via Whisper)
      Configure your Ollama settings by providing the URL, selecting an AI model, and setting up the system prompt. This will generate an AI response based on your transcription.
      
    - **Response to Speech Tab:**  
-     Adjust the text-to-speech settings (speed and voice) to synthesize the audio output from the AI response.
+     Adjust the text-to-speech settings (speed and voice) to synthesize the audio output from the AI response. The voice menu now includes new options for Indian and Spanish voices.
 
 ## Notes
 - The app defaults to the **Whisper Tiny** model for faster performance.  
