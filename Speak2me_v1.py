@@ -260,8 +260,19 @@ voice_menu = {
     "bm_george (en)": {"name": "bm_george", "lang": "en-gb"},
     "bm_lewis (en)": {"name": "bm_lewis", "lang": "en-gb"},
 
+    # ES Voices
+    "ef_dora (es)": {"name": "ef_dora", "lang": "es"},
+    "em_alex (es)": {"name": "em_alex", "lang": "es"},
+    "em_santa (es)": {"name": "em_santa", "lang": "es"},
+  
     # FR Voices
     "ff_siwis (fr)": {"name": "ff_siwis", "lang": "fr-fr"},
+
+    # HI Voices
+    "hf_alpha (in)": {"name": "hf_alpha", "lang": "hi"},
+    "hf_beta (in)": {"name": "hf_beta", "lang": "hi"},
+    "hm_omega (in)": {"name": "hm_omega", "lang": "hi"},
+    "hm_psi (in)": {"name": "hm_psi", "lang": "hi"},
 
     # IT Voices
     "if_sara (it)": {"name": "if_sara", "lang": "it"},
@@ -286,7 +297,7 @@ def tts(text, speed, voice_choice):
     import soundfile as sf
     # Inline voice menu for TTS
     voice_menu = {
-            # US Voices
+        # US Voices
     "af_alloy (en)": {"name": "af_alloy", "lang": "en-us"},
     "af_aoede (en)": {"name": "af_aoede", "lang": "en-us"},
     "af_bella (en)": {"name": "af_bella", "lang": "en-us"},
@@ -318,8 +329,20 @@ def tts(text, speed, voice_choice):
     "bm_george (en)": {"name": "bm_george", "lang": "en-gb"},
     "bm_lewis (en)": {"name": "bm_lewis", "lang": "en-gb"},
 
+    # ES Voices
+    "ef_dora (es)": {"name": "ef_dora", "lang": "es"},
+    "em_alex (es)": {"name": "em_alex", "lang": "es"},
+    "em_santa (es)": {"name": "em_santa", "lang": "es"},
+  
+
     # FR Voices
     "ff_siwis (fr)": {"name": "ff_siwis", "lang": "fr-fr"},
+
+    # HI Voices
+    "hf_alpha (in)": {"name": "hf_alpha", "lang": "hi"},
+    "hf_beta (in)": {"name": "hf_beta", "lang": "hi"},
+    "hm_omega (in)": {"name": "hm_omega", "lang": "hi"},
+    "hm_psi (in)": {"name": "hm_psi", "lang": "hi"},
 
     # IT Voices
     "if_sara (it)": {"name": "if_sara", "lang": "it"},
