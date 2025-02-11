@@ -1,4 +1,5 @@
 # Speak2me_v1
+![demo-ui](https://raw.githubusercontent.com/MushroomFleet/Speak-2-me/refs/heads/main/images/demo-ui.png)
 
 A Gradio-based speech-to-prompt pipeline integrating transcription (via Whisper), natural language generation (via Ollama), and text-to-speech (via Kokoro TTS). This application automatically downloads the Whisper Tiny model by default, with support for the Medium model and CPU fallback.
 
